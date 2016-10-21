@@ -211,7 +211,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     padding-bottom: 200px;
     text-align: center;
-    background-image: url('.../images/taino-top.jpg');
+    background-image: url('../images/taino-top.jpg');
     background-size: cover;
     background-position: center center;
 }
