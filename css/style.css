@@ -686,6 +686,7 @@ a.boxTeam:hover {
   margin: 0 auto;
 }
 
+
 .boxTeam figure img {
     position: relative;
     max-width: 130px;
@@ -900,6 +901,31 @@ a.fancybox:before {
   transition: 0.3s;
   }
 
+.fancybox .iconHover {
+  opacity: 0;
+  transition: 0.3s;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;  
+  z-index: 104;
+
+}
+
+.iconHover .fa-camera {
+    font-size: 60px;
+}
+
+.fancybox:hover .iconHover {
+  opacity: 1;
+  transition: 0.3s;
+
+}
+
+.fancybox:hover .captiontitle {
+  opacity: 0;
+  transition: 0.3s;
+}
 
 .fancybox figcaption {
   position: absolute;
@@ -909,6 +935,7 @@ a.fancybox:before {
   padding-left: 17px;
   width: 100%;
   padding: 14px;
+  opacity: 1;
   transition: 0.3s;
 }
 
@@ -920,6 +947,7 @@ a.fancybox:before {
   height: 100%;
   position: relative;
   z-index: 103;
+    transition: 0.3s;
 }
 
 .captiontitle .inner {
