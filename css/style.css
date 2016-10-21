@@ -633,8 +633,7 @@ div.thumbnail .glyphicon-ok-circle{
 .company-section {
   padding-top: 6em;
   padding-bottom: 6em;
-  background: #f2f2f2;
-  background: url('http://testonline.ihtmp.com/sitio-taino/images/bg-company.jpg');
+  background: #fff;
   background-size: cover;
 }
 
@@ -778,7 +777,7 @@ a.boxTeam01:hover {
 /* FAQ */
 
 .faq-section {
-  background: url('file:///Users/juangomez/Desktop/JUAN/rtko/SITIO%20TAINO/sitio-taino/images/faq-bg.jpg') no-repeat;
+  background: url('../images/faq-bg.jpg');
   background-size: cover;
   background-position: center center;
   padding: 2em 0;
@@ -878,13 +877,13 @@ a.fancybox:before {
 }
 
 .grid-item .img01 {
-  background: url('file:///Users/juangomez/Desktop/JUAN/rtko/SITIO%20TAINO/sitio-taino/images/mountain.jpg');
+  background: url('../images/mountain.jpg');
   background-position: center center;
   background-size: cover;
 }
 
 .grid-item .img02 {
-  background: url('file:///Users/juangomez/Desktop/JUAN/rtko/SITIO%20TAINO/sitio-taino/images/photo.jpg');
+  background: url('../images/photo.jpg');
   background-position: center center;
   background-size: cover;
 }
