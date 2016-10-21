@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Embarques Taino</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Theme CSS -->
+    <!--link href="css/agency.min.css" rel="stylesheet"-->
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" data-offset="50">
+                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+                </button>
+                <!--img src="images/logo.png"-->
+                <a class="navbar-brand page-scroll" href="#page-top">Taino Embarques</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="divLogo"></div>
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#intro">Home</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#about">Empresa</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#services">Servicio</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#company">Equipo</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#opiniones">Opiniones</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#gallery">Galeria</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contacto</a>
+                  </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="contentIntro">
+                      <div class="logoResponsive">
+                        <img src="images/logo-responsive.png">
+                      </div>
+                      <h1>Cruzamos el mundo para unir familias, sueños y emociones</h1>
+                      <p>Ofrecemos un servicio de embarque para hacer llegar todo lo que quieras<br>a tu familia, desde el Chile al Caribe y viceversa!</p>
+
+                    <!--a class="roundCircle page-scroll" href="#about">
+                      <div class="roundCircleRed"><img src="images/angle-down.png"></div>
+                    </a-->
+                    <a class="btn btn-action page-scroll" href="#about">Descubre cómo</a>
+                    <!--a class="btn btn-second-action page-scroll" href="#about">Encarga tu caja</a-->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="titleForm">
+                          <h2>¡Prepara tu envío!</h2>
+                          <p>Llena el formulario a continuación para obtener la caja para tus envíos</p>
+                        </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Nombre completo" id="name" required data-validation-required-message="Por favor escribe tu nombre">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                              <div class="form-group">
+                                  <input type="email" class="form-control" placeholder="Correo electrónico" id="email" required data-validation-required-message="Por favor escribe tu correo electrónico">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                              <div class="form-group">
+                                  <input type="tel" class="form-control" placeholder="Teléfono o celular" id="phone" required data-validation-required-message="Por favor escribe tu número">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                              <div class="form-group">
+                                  <input type="add" class="form-control" placeholder="Calle / Número / Comuna" id="address" required data-validation-required-message="Por favor escribe tu dirección">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+
+                          <div class="clearfix"></div>
+                          <div class="col-lg-12 text-center">
+                              <div id="success"></div>
+                              <button type="submit" class="btn btn-third-action"><i class="fa fa-share-square-o" aria-hidden="true"></i>Enviar mensaje</button>
+                          </div>
+                      </div>
+                  </form>
+                  </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="aboutText">
+                        <h2>Ofrecemos un servicio de traslado en embarque eficiente, seguro y al alcance de todo el mundo</h2>
+                        <p>Embarques Taino es una empresa Chilena que contribuye a que todos los extranjeros del Caribe residentes en Chile, y familiares de chilenos residentes en aquella región, puedan enviar todo tipo de carga lícita puerta a puerta a sus respectivas familias de manera fácil, cómoda, responsable y a precios asequibles.</p>
+                        <!--a id="buttonAbout" class="btn btn-action page-scroll" href="#services">Cómo funciona</a-->
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <ul class="listBoxes">
+              <li class="boxAboutIcon">
+                  <div class="boxIcon">
+                      <img src="images/icon1.png">
+                  </div>
+                  <div class="boxTextIcon">
+                      <h3>Confianza</h3>
+                      <p>Entregamos un servicio de calidad y confiable desde el primer minuto.</p>
+                  </div>
+              </li>
+              <li class="boxAboutIcon">
+                  <div class="boxIcon">
+                      <img src="images/icon2.png">
+                  </div>
+                  <div class="boxTextIcon">
+                      <h3>Rápidez y compromiso</h3>
+                      <p>Generamos nuestro servicio de manera rápida y eficaz.</p>
+                  </div>
+              </li>
+              <li class="boxAboutIcon">
+                  <div class="boxIcon">
+                      <img src="images/icon3.png">
+                  </div>
+                  <div class="boxTextIcon">
+                      <h3>Seguridad</h3>
+                      <p>Ofrecemos garantía de que nuestro servicio es 100% seguro.</p>
+                  </div>
+              </li>
+              </ul>
+              <a id="buttonAboutResponsive" class="btn btn-action page-scroll" href="#services">Cómo funciona</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4 text-left">
+                  <!--div class="iconLeft">
+                    <img src="images/icon-left.png">
+                  </div-->
+                  <div class="titleServices">
+                      <h2>Generamos un proceso de envío con gestión rápida y efectiva</h2>
+                      <p>Aseguramos que tus envíos llegarán a su destino con los estándares de calidad más altos a nivel latinoamericano y el mundo!</p>
+                  </div>
+                  <div class="titleServicesResponive">
+                      <h2>Así funciona el proceso de envíos internacionales</h2>
+                  </div>
+              </div>
+            <div class="col-md-8">
+            <div class="row">
+                <div class="col-sm-6 responsive-50">
+                    <div class="boxServices">
+                        <div class="boxIconServices">
+                            <img src="images/phoneicon.png">
+                        </div>
+                        <div class="boxTextIconServices">
+                            <h3><span>01</span>Atención</h3>
+                            <p>Contáctanos a través de nuestros canales de atención para darte toda la información necesaria.</p>
+                        </div>
+                    </div>
+                    <div class="boxServices">
+                        <div class="boxIconServices">
+                            <img src="images/boxicon.png">
+                        </div>
+                        <div class="boxTextIconServices">
+                            <h3><span>02</span>Despacho</h3>
+                            <p>Con tus datos vamos a tu domicilio y te entregamos el contenedor, previo pago, para el posterior envio.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="col-sm-4 delete-this">
+                    <div class="imgWorldWide">
+                        <img src="images/world-image.png">
+                    </div>
+                </div-->
+                <div class="col-sm-6 responsive-50">
+                    <div class="boxServices">
+                        <div class="boxIconServices">
+                            <img src="images/busicon.png">
+                        </div>
+                        <div class="boxTextIconServices">
+                            <h3><span>03</span>Verificación</h3>
+                            <p>Una vez el contenido de tu envío esté listo, iremos a retirarlo para verificar y gestionar el cargamento.</p>
+                        </div>
+                    </div>
+                    <div class="boxServices">
+                        <div class="boxIconServices">
+                            <img src="images/handsicon.png">
+                        </div>
+                        <div class="boxTextIconServices">
+                            <h3><span>04</span>Gestión y envío</h3>
+                            <p>Una vez realizada la gestión el contenido será distribuido y emplazado al domicilio de destino.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="faqTitle">
+                <h2>¿Aún tienes dudas sobre nuestro servicio de envíos?</h2>
+                <p>Visita nuestra sección de preguntas frecuentes para resolver tus dudas!</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="faqButton">
+                <a class="btn btn-second-action" href="">Preguntas frecuentes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- COMPANY SECTION -->
+    <section id="company" class="company-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="titleCompany">
+                <h2>Una empresa sólida compuesta por diversos profesionales</h2>
+                <p>Gestionamos el proceso de envío complementando diferentes áreas de trabajo que se unen para funcionar correctamente.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row padding-top">
+            <!--div class="col-md-2"></div-->
+            <div class="col-md-6">
+              <a class="boxTeam01" href="#">
+                <figure>
+                  <img src="images/photo.jpg">
+                </figure>
+                <figcaption>
+                  <h4>Gerencia</h4>
+                  <h3>Germán Pavez Bascuñán</h3>
+                  <p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+                </figcaption>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a class="boxTeam01" href="#">
+                <figure>
+                  <img src="images/photo.jpg">
+                </figure>
+                <figcaption>
+                  <h4>Gerencia</h4>
+                  <h3>Leybis Matias Guerrero</h3>
+                  <p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+                </figcaption>
+              </a>
+            </div>
+            <!--div class="col-md-2"></div-->
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <a class="boxTeam" href="#">
+                <figure>
+                  <img src="images/photo.jpg">
+                </figure>
+                <figcaption>
+                  <h4>Reparto</h4>
+                  <h3>Leonardo Cabral Guerrero</h3>
+                  <!--p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p-->
+                </figcaption>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a class="boxTeam" href="#">
+                <figure>
+                  <img src="images/photo.jpg">
+                </figure>
+                <figcaption>
+                  <h4>Logística</h4>
+                  <h3>Valeria Gómez Soto</h3>
+                  <!--p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p-->
+                </figcaption>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a class="boxTeam" href="#">
+                <figure>
+                  <img src="images/photo.jpg">
+                </figure>
+                <figcaption>
+                  <h4>Recepción internacional</h4>
+                  <h3>Leonardo Cabral Guerrero</h3>
+                  <!--p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p-->
+                </figcaption>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Opiniones Section -->
+    <section id="opiniones" class="opiniones-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="titleOpiniones">
+                        <h2>Lo que nuestros clientes opinan</h2>
+                        <h4>de nuestros servicios y disponibilidad</h4>
+                    </div>
+                    <div class="titleOpinionesResponsive">
+                        <h2>Lo que nuestros clientes opinan de nuestro servicio</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="fadetest">
+                        <div class="contentOpiniones">
+                            <div class="photoOpiniones">
+                                <img src="images/user01.png">
+                            </div>
+                            <div class="titleUserOpiniones">
+                                <h4>User 01</h4>
+                                <p>User Description</p>
+                            </div>
+                            <div class="userOpinion">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerc.</p>
+                            </div>
+                        </div>
+                        <div class="contentOpiniones">
+                            <div class="photoOpiniones">
+                                <img src="images/user01.png">
+                            </div>
+                            <div class="titleUserOpiniones">
+                                <h4>User 02</h4>
+                                <p>User Description</p>
+                            </div>
+                            <div class="userOpinion">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerc.</p>
+                            </div>
+                        </div>
+                        <div class="contentOpiniones">
+                           <div class="photoOpiniones">
+                               <img src="images/user01.png">
+                           </div>
+                           <div class="titleUserOpiniones">
+                               <h4>User 03</h4>
+                               <p>User Description</p>
+                           </div>
+                           <div class="userOpinion">
+                               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerc.</p>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Gallery Section -->
+    <!--section id="gallery" class="gallery-section">
+          <div id="freewall" class="free-wall"></div>
+    </section-->
+
+
+    <!-- Gallery-->
+    <div id="gallery" class="gallery-section">
+      <div class="container-fluid">
+        <div class="grid">
+          <div class="grid-sizer"></div>
+          <div class="grid-item grid-item-width-1">
+            <a class="fancybox" href="images/mountain.jpg">
+              <div class="galleryimg img01"></div>
+              <figcaption>
+                <div class="captiontitle">
+                  <div class="inner">
+                    <h2>Photo 01</h2>
+                    <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </h4>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </div>
+          <div class="grid-item grid-item-width-2">
+            <a class="fancybox" href="images/mountain.jpg">
+              <div class="galleryimg img02"></div>
+              <figcaption>
+                <div class="captiontitle">
+                  <div class="inner">
+                    <h3>Photo 01</h3>
+                    <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </h4>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </div>
+          <div class="grid-item grid-item-width-2">
+            <a class="fancybox" href="images/mountain.jpg">
+              <div class="galleryimg img02"></div>
+              <figcaption>
+                <div class="captiontitle">
+                  <div class="inner">
+                    <h3>Photo 01</h3>
+                    <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </h4>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </div>
+          <div class="grid-item grid-item-width-2">
+            <a class="fancybox" href="images/mountain.jpg">
+              <div class="galleryimg img02"></div>
+              <figcaption>
+                <div class="captiontitle">
+                  <div class="inner">
+                    <h3>Photo 01</h3>
+                    <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </h4>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </div>
+          <div class="grid-item grid-item-width-2">
+            <a class="fancybox" href="images/mountain.jpg">
+              <div class="galleryimg img02"></div>
+              <figcaption>
+                <div class="captiontitle">
+                  <div class="inner">
+                    <h3>Photo 01</h3>
+                    <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </h4>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="titleContact">
+                      <h2>¡Estemos en contacto!</h2>
+                      <h4>Disponemos de diferentes canales de atención para responder todo tipo de dudas que tengas en relación a nuestro servicio
+                        y cómo funciona, no dudes en utilizarlos.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="socialNets">
+                      <ul>
+                        <li><div class="socialBox"><i class="fa fa-facebook" aria-hidden="true"></i></div><h4>Facebook</h4></li>
+                        <li><div class="socialBox"><i class="fa fa-briefcase" aria-hidden="true"></i></div><h4>Oficina</h4></li>
+                        <li><div class="socialBox"><i class="fa fa-whatsapp" aria-hidden="true"></i></div><h4>Whatsapp</h4></li>
+                      </ul>
+                </div>
+              </div>
+              <!--div class="col-md-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre completo *" id="name" required data-validation-required-message="Por favor escribe tu nombre">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Correo electrónico *" id="email" required data-validation-required-message="Por favor escribe tu correo electrónico">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Teléfono o celular *" id="phone" required data-validation-required-message="Por favor escribe tu número">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                  <textarea class="form-control" placeholder="Mensaje *" id="message" required data-validation-required-message="Por favor escribe tu mensaje"></textarea>
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-action"><i class="fa fa-share-square-o" aria-hidden="true"></i>Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div-->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
+    </script>
+
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+
+    $('.fadetest').slick({
+      arrows: false,
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear'
+    });
+
+
+    </script>
+    <!-- MASONRY GRID -->
+    <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <script>
+    $('.grid').masonry({
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true
+    });
+
+    </script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
