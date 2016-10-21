@@ -999,23 +999,21 @@ a.fancybox:before {
 
 /* CONTACTO */
 #contact h2 {
-    color: #0a1e2b;
+    color: #fff;
     margin-top: 0;
 }
 
 .contact-section h4 {
     margin: 0;
     color: #8ca3b2;
-    margin: 0 13em;
     font-size: 15px;
 }
 
 .contact-section {
     text-align: center;
-    text-align: center;
-    background: #fff;
-    padding-top: 6em;
-    padding-bottom: 8em;
+    background: #011c36;
+    padding: 2em 0;
+
 }
 
 #contactForm .form-control:focus {
@@ -1028,7 +1026,22 @@ a.fancybox:before {
   min-height: 234px;
 }
 
+.headerFooter .pull-left {
+    width: 400px;
+    text-align: left;
+}
 
+.navFooter li {
+    list-style: none;
+    float: left;
+    margin: 0 12px;
+    margin-top: 16px;
+}
+
+.navFooter li a {
+  text-decoration: none;
+  color: #fff;
+}
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -1093,21 +1106,33 @@ form .row:first-child .floating-label-form-group {
     border-bottom: 1px solid #eee;
 }
 
+.headerFooter {
+  border-bottom: 1px solid #203040;
+  padding: 10px 0;
+}
+
+.bottomFooter {
+  padding: 10px 0;
+}
 
 .socialBox {
-    width: 50px;
-    height: 50px;
+width: 40px;
+    height: 40px;
     border-radius: 100%;
     background: #e92828;
     color: #fff;
-    font-size: 25px;
-    padding: 7px;
+    font-size: 18px;
+    padding: 6px;
     float: left;
+    margin: 0px 10px;
+    text-align: center;
 }
-
+.socialNets ul {
+      overflow: hidden;
+    text-align: right;
+}
 .socialNets ul li {
     display: inline-block;
-    margin: 22px 0;
 }
 
 .socialNets h4 {
