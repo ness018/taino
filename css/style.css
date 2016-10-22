@@ -906,7 +906,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e29', end
   position: absolute;
   transform: translate(-50%,-50%);
   left: 50%;
-  top: 50%;  
+  top: 50%;
   z-index: 104;
 
 }
@@ -1027,7 +1027,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e29', end
 }
 
 .headerFooter .pull-left {
-    width: 400px;
+    width: auto;
     text-align: left;
 }
 
