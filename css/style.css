@@ -1314,7 +1314,7 @@ width: 40px;
   }
 
   .btn-action , .btn-second-action {
-    width: 100%;
+    display: block;
     font-size: 16px;
   }
   .aboutText {
@@ -1428,7 +1428,9 @@ width: 40px;
   }
 
   .boxTeam01 img {
-    max-width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
   }
 
   .boxTeam01 figcaption {
@@ -1436,7 +1438,10 @@ width: 40px;
   }
 
   .boxTeam01 figure {
-    width: 100%;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    float: none;
   }
 
   a.boxTeam {
