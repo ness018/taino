@@ -185,104 +185,8 @@ content: "\e00d";
 }
 
 /* MENU */
-
-.navbar-default .navbar-nav>li>a{
-    padding: 0;
-    padding: 5px 15px;
-    border-radius: 0px;
-    line-height: 19px;
-    color: #fff;
-    transition: all 0.3s ease 0s;
-}
-
-.navbar-default .navbar-nav>li>a:hover{
-    color: #fff;
-    background-color: transparent;;
-    padding: 5px 15px;
-    border-radius: 0px;
-    line-height: 19px;
-    transition: all 0.3s ease 0s;
-    border-bottom: 3px solid #e92828;
-}
-
-
-.navbar-nav {
-
-    float: right;
-    margin: 10px 0;
-}
-
-.navbar-nav>li {
-    margin: 0 2px;
-    color: #fff;
-}
-
-.navbar-nav li.active a {
-  color: #fff;
-}
-
-.navbar-default {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
-    padding: 20px 0;
-}
-
-.top-nav-collapse {
-    background: #fff;
-    box-shadow: 0 0 29px 9px rgba(0,0,0,.2);
-    padding: inherit;
-}
-
-.navbar-default .navbar-nav>li>a {
-    font-family: 'Open Sans', serif;
-    border-bottom: 3px solid transparent;
-}
-
-.navbar-nav>li>a {
-    color: #0a1e2b;
-    padding: 0;
-    padding: 5px 15px;
-    border-radius: 0px;
-    line-height: 19px;
-    font-family: 'Open Sans', serif;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: transparent;;
-    padding: 5px 15px;
-    border-radius: 0px;
-    line-height: 19px;
-    font-family: 'Open Sans', serif;
-    border-bottom: 3px solid #e92828;
-}
-
-
-
-.navbar-default .navbar-brand {
-  font-family: 'Open Sans' , serif;
-  text-transform: uppercase;
-  color: #011c36;
-  display: none;
-}
-
-.top-nav-collapse .navbar-nav>li {
-  color: #000 !important;
-}
-.top-nav-collapse .navbar-nav>li>a {
-  color: #000 !important;
-}
-.top-nav-collapse .navbar-nav>li>a:hover {
-  color: #000 !important;
-}
-
-.top-nav-collapse .navbar-nav>.active>a {
-  color: #000 !important;
-}
-
-.top-nav-collapse .navbar-nav>.active>a:hover {
-  color: #000 !important;
+.navbar-brand>img {
+  max-width: 175px;
 }
 
 /* INTRO */
@@ -1086,6 +990,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e29', end
     margin: 0;
     color: #8ca3b2;
     font-size: 15px;
+    text-align: left;
+    line-height: 25px;
 }
 
 .contact-section {
@@ -1110,6 +1016,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e29', end
     text-align: left;
 }
 
+.headerFooter img {
+  max-width: 165px;
+}
 .navFooter li {
     list-style: none;
     float: left;
