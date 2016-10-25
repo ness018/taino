@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+    color: #fff;
 }
 
 body h1, body h2, body h3, body h4 {
@@ -20,6 +21,8 @@ body p {
 }
 body a {
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 html {
     width: 100%;
@@ -220,6 +223,14 @@ content: "\e00d";
   transition: 0.3s;
 }
 
+.navbar-default .navbar-nav>li>a:visited {
+  color: #fff;
+}
+
+.top-nav-collapse .navbar-nav>li>a:visited {
+  color: #000;
+}
+
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
@@ -260,7 +271,7 @@ content: "\e00d";
 
 /* INTRO */
 .intro-section {
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
     background-image: url('../images/taino-top.jpg');
