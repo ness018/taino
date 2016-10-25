@@ -186,12 +186,12 @@ content: "\e00d";
 
 /* MENU */
 .navbar-brand>img {
-  max-width: 140px;
-  margin: 10px;
+  max-width: 160px;
+  margin: 13px;
 }
 .navbar-brand-color>img {
-  max-width: 140px;
-  margin: 10px;
+  max-width: 160px;
+  margin: 13px;
 }
 
 .navbar-brand-color {
@@ -1491,8 +1491,8 @@ width: 40px;
     margin: 0;
   }
 
-  .socialNets {
-    display: none;
+  .socialNets ul{
+    overflow: inherit;
   }
 
   .photoOpiniones img {
