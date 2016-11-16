@@ -223,9 +223,9 @@ content: "\e00d";
   transition: 0.3s;
 }
 
-.navbar-default .navbar-nav>li>a:visited {
+/*.navbar-default .navbar-nav>li>a:visited {
   color: #fff;
-}
+}*/
 
 /*.top-nav-collapse .navbar-nav>li>a:visited {
   color: #000;
